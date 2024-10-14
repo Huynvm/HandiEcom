@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>HandiEcom</title>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="image/HUY9.png" alt="HandiEcom Logo">
+    </div>
+    <div class="menu">
+        <li><a href="index.html">TRANG CHỦ</a></li>
+        <li><a href="">GIỚI THIỆU</a>
+            <ul class= "sub-menu">
+                <li><a href="">Về HandiEcom</a></li>
+                <li><a href="">Quy chế hoạt động</a></li>
+                <li><a href="">Bán hàng cùng HandiEcom</a></li>
+            </ul>
+        </li>
+        <li><a href="">DANH MỤC SẢN PHẨM</a>
+            <ul class="sub-menu">
+                <li><a href="">Hàng mới về</a></li>
+                <li><a href="">Làng nghề</a>
+                    <ul>
+                        <li><a href="phukients.html">Phụ kiện thời trang</a></li>
+                        <li><a href="noithat.html">Đồ nội thất</a></li>
+                        <li><a href="dotrangtri.html">Đồ trang trí</a></li>
+                        <li><a href="http://127.0.0.1:5500/category.html">Đồ gia dụng</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Hiện đại</a>
+                    <ul>
+                        <li><a href="DCHT.html">Đồ dùng học tập</a></li>
+                        <li><a href="">Móc len</a></li>
+                        <li><a href="">Tranh thêu</a></li>
+                        <li><a href="TRANGSUC.html">Trang sức</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="">CHẤT LIỆU</a>
+            <ul class="sub-menu">
+                <li><a href="">Tre</a></li>
+                <li><a href="">Gỗ</a></li>
+                <li><a href="">Lụa</a> </li>
+                <li><a href="">Sứ</a> </li>
+                <li><a href="">Đá</a> </li>
+            </ul>
+        </li>
+        <li><a style="color: red;" href="">ƯU ĐÃI</a>
+            <ul class= "sub-menu">
+                <li><a href="">Khung giờ vàng</a></li>
+                <li><a href="">Sale trong tháng</a></li>
+            </ul>
+        </li>
+        <li><a href="">BỘ SƯU TẬP</a></li>
+        <li><a href="tintuc.html">TIN TỨC</a></li>
+        <li><a href="">HỖ TRỢ</a></li>
+    </div>
+    <div class="other">
+        <li><input placeholder="Tìm kiếm" type="text"><i class="fas fa-search"></i></li>
+        <li><a class="fas fa-comment" href=""></a></li>
+        <li><a class="fa fa-user" href="user.html"></a></li>
+        <li><a class="fa fa-shopping-bag" href="cart.html"></a></li>
+    </div>
+</header>
+<!-----------delivery-------------->
+<section class="delivery content">
+    <div class="container">
+        <div class="delivery-top-wrap">
+            <div class="delivery-top">
+                <div class="delivery-top-delivery delivery-top-item">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="delivery-top-address delivery-top-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="delivery-top-payment delivery-top-item">
+                    <i class="fas fa-money-check-alt"></i>
+                </div>
+            </div>
+       </div>
+    </div>
+    <div class="container">
+        <div class="delivery-content row">
+            <div class="delivery-content-left">
+                <p>Vui lòng chọn địa chỉ giao hàng</p>
+                <div class="delivery-content-left-dangnhap row">
+                    <i class="fas fa-sign-in-alt"></i>
+                    <p>Đăng nhập (Nếu bạn đã có tài khoản HandiEcom)</p>
+                </div>
+                <div class="delivery-content-left-khachle row">
+                    <input checked name="loaikhach" type="radio">
+                    <p><span style="font-weight: bold ;">Khách lẻ</span> (Nếu bạn không muốn lưu lại thông tin)</p>
+
+                </div>
+                <div class="delivery-content-left-dangky row">
+                    <input name="loaikhach" type="radio">
+                    <p><span style="font-weight: bold ;">Đăng ký</span> (Tạo mới tài khoản với thông tin bên dưới)</p>
+                </div>
+                <div class="delivery-content-left-input-top row">
+                    <div class="delivery-content-left-input-top-item">
+                        <label for="">Họ tên <span style="color: red;">*</span></label>
+                        <input type="text">
+                    </div>
+                    <div class="delivery-content-left-input-top-item">
+                        <label for="">Điện thoại <span style="color: red;">*</span></label>
+                        <input type="text">
+                    </div>
+                    <div class="delivery-content-left-input-top-item">
+                        <label for="">Tỉnh/TP <span style="color: red;">*</span></label>
+                        <input type="text">
+                    </div>
+                    <div class="delivery-content-left-input-top-item">
+                        <label for="">Quận/Huyện <span style="color: red;">*</span></label>
+                        <input type="text">
+                    </div>
+                    <div class="delivery-content-left-input-top-item">
+                        <label for="">Phường/Xã <span style="color: red;">*</span></label>
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="delivery-content-left-input-bottom">
+                    <label for="">Địa chỉ <span style="color: red;">*</span></label>
+                    <input type="text">
+                </div>
+                <div class="delivery-content-left-button row">
+                    <a href=""><span>&#171</span><p>Quay lại giỏ hàng</p></a>
+                    <button><p style="font-weight: bold;"><a href="payment.html">THANH TOÁN VÀ GIAO HÀNG</a></p></button>
+                </div>
+            </div>
+            <div class="delivery-content-right">
+                <table>
+                    <tr>
+                        <th>Tên sản phẩm</th>
+                        <th>Giảm giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                    <tr>
+                        <td>NÓN LÁ TRUYỀN THỐNG</td>
+                        <td>-30%</td>
+                        <td>1</td>
+                        <td><p>119.000 <sup>đ</sup></p></td>
+                    </tr>
+                    <tr>
+                        <td>RỔ TRE ĐAN THỦ CÔNG</td>
+                        <td>-20%</td>
+                        <td>1</td>
+                        <td><p>119.000 <sup>đ</sup></p></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;" colspan="3">Tổng</td>
+                        <td style="font-weight: bold;"><p>238.000 <sup>đ</sup></p></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;" colspan="3">Phí ship</td>
+                        <td style="font-weight: bold;"><p>17.000 <sup>đ</sup></p></td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold;" colspan="3">Tổng tiền hàng</td>
+                        <td style="font-weight: bold;"><p>255.000 <sup>đ</sup></p></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-----------------Footer-->
+<section class="app-container">
+    <hr style="border: 0.1px solid rgb(176, 173, 173); width: 100%;">
+    <p>Tải ứng dụng HandiEcom</p>
+    <div class="app-google">
+        <img src="image/appstore.png" alt="App Store">
+        <img src="image/gg.png" alt="Google Play">
+    </div>
+    <p>Phản hồi cho HandiEcom</p>
+    <input type="text" placeholder="Nhập email của bạn...">
+</section>
+
+<div class="footer-top">
+    <li><a href=""></a>Liên hệ</li>
+    <li><a href=""></a>Tuyển dụng</li>
+    <li><a href=""></a>Giới thiệu</li>
+    <li>
+        <a href="" class = "fab fa-facebook-f"></a>
+        <a href=""class  = "fab fa-twitter"></a>
+        <a href="" class = "fab fa-youtube"></a>
+    </li>
+</div>
+<div class="footer-center">
+    <p>Được thực hiện bởi team F4ever <br>
+        Trường đại học Công nghệ Thông tin - ĐHQG <br>
+        Số điện thoại: <b>0779 433 016</b>
+    </p>
+</div>
+<div class="footer-bottom">
+    @HandiEcom All rights reserved
+</div>
+
+
+</body>
+</html>
